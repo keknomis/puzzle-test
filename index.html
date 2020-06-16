@@ -1,70 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
 
-  <title>Memory Game</title>
+    <title>Memory Game</title>
 
-  <link rel="stylesheet" href="styles.css">
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+      integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous"
+    />
 
-</head>
-<body>
-  <section class="memory-game">
-    <div class="memory-card" data-framework="aurelia">
-      <img class="front-face" src="slike/Slika1.png" alt="Aurelia" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="aurelia">
-      <img class="front-face" src="slike/Slika1_1.png" alt="Aurelia" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
-    </div>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container" style="margin-top: 128;">
+      <div class="col">
+        <section class="memory-game">
+          <div class="memory-card" data-framework="aurelia">
+            <img class="front-face" src="slike/Slika1.png" alt="Aurelia" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="aurelia">
+            <img class="front-face" src="slike/Slika1_1.png" alt="Aurelia" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
 
-    <div class="memory-card" data-framework="vue">
-      <img class="front-face" src="slike/Slika2.png" alt="Vue" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="vue">
-      <img class="front-face" src="slike/Slika2_2.png" alt="Vue" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
-    </div>
+          <div class="memory-card" data-framework="vue">
+            <img class="front-face" src="slike/Slika2.png" alt="Vue" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="vue">
+            <img class="front-face" src="slike/Slika2_2.png" alt="Vue" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
 
-    <div class="memory-card" data-framework="angular">
-      <img class="front-face" src="slike/Slika3.png" alt="Angular" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="angular">
-      <img class="front-face" src="slike/Slika3_3.png" alt="Angular" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
-    </div>
+          <div class="memory-card" data-framework="angular">
+            <img class="front-face" src="slike/Slika3.png" alt="Angular" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="angular">
+            <img class="front-face" src="slike/Slika3_3.png" alt="Angular" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
 
-    <div class="memory-card" data-framework="ember">
-      <img class="front-face" src="slike/Slika4.png" alt="Ember" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="ember">
-      <img class="front-face" src="slike/Slika4_4.png" alt="Ember" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
-    </div>
+          <div class="memory-card" data-framework="ember">
+            <img class="front-face" src="slike/Slika4.png" alt="Ember" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="ember">
+            <img class="front-face" src="slike/Slika4_4.png" alt="Ember" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
 
-    <div class="memory-card" data-framework="backbone">
-      <img class="front-face" src="slike/Slika5.png" alt="Backbone" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
-    </div>
-    <div class="memory-card" data-framework="backbone">
-      <img class="front-face" src="slike/Slika5_5.png" alt="Backbone" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
-    </div>
+          <div class="memory-card" data-framework="backbone">
+            <img class="front-face" src="slike/Slika5.png" alt="Backbone" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="backbone">
+            <img class="front-face" src="slike/Slika5_5.png" alt="Backbone" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
 
-    <div class="memory-card" data-framework="react">
-      <img class="front-face" src="slike/Slika6.png" alt="React" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          <div class="memory-card" data-framework="react">
+            <img class="front-face" src="slike/Slika6.png" alt="React" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
+          <div class="memory-card" data-framework="react">
+            <img class="front-face" src="slike/Slika6_6.png" alt="React" />
+            <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
+          </div>
+        </section>
+      </div>
+      <div class="col">
+        <section class="displaymsg">
+          <div>
+            <div id="popup" class="alert alert-info">To je igra Spomin. 
+              Poišči pare! Sličicam je potrebno najti primeren detajl s slike. 
+            </div>
+          </div>
+        </section>
+      </div>
     </div>
-    <div class="memory-card" data-framework="react">
-      <img class="front-face" src="slike/Slika6_6.png" alt="React" />
-      <img class="back-face" src="slike/front.PNG" alt="JS Badge" />
-    </div>
-  </section>
-
-  <script src="main.js"></script>
-</body>
+    <script src="main.js"></script>
+  </body>
 </html>
